@@ -1,0 +1,7 @@
+{
+  "name": "arango-migrate-example",
+  "dependencies": {
+    "arango-migrate": "0.0.3",
+    "dotenv": "^16.0.0"
+  }
+}
