@@ -1,3 +1,10 @@
+/**
+ * @typedef { import("arango-migrate").Migration } Migration
+ */
+
+/**
+ * @type { Migration }
+ */
 const migration = {
   description: 'The first migration',
   async collections () {

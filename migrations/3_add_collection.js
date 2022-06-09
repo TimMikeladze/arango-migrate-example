@@ -1,3 +1,10 @@
+/**
+ * @typedef { import("arango-migrate").Migration } Migration
+ */
+
+/**
+ * @type { Migration }
+ */
 const migration = {
   async collections () {
     return ['user']
@@ -6,4 +13,5 @@ const migration = {
     await db.collection('user').drop()
   }
 }
+
 export default migration

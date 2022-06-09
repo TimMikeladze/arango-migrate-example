@@ -1,6 +1,13 @@
+/**
+ * @typedef { import("arango-migrate").Migration } Migration
+ */
+
+/**
+ * @type { Migration }
+ */
 const migration = {
-  async collections () {
-    return []
+  collections() {
+    return ['todo']
   },
   async beforeUp (db) {
     await db.collection('todo').ensureIndex({
@@ -14,4 +21,5 @@ const migration = {
     await db.collection('todo').dropIndex('index_todo_completed')
   }
 }
+
 export default migration
