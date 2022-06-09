@@ -7,6 +7,8 @@ A minimal example of how to use the [arango-migrate](https://github.com/TimMikel
 ```console
 docker compose up -d
 
+cp .env.example .env
+
 yarn install
 
 yarn arango-migrate --up
