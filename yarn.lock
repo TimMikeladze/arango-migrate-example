@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.41.tgz#1607b2fd3da014ae5d4d1b31bc792a39348dfb9b"
   integrity sha512-xA6drNNeqb5YyV5fO3OAEsnXLfO7uF0whiOfPTz5AeDo8KeZFmODKnvwPymMNO8qE/an8pVY/O50tig2SQCrGw==
 
-arango-migrate@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/arango-migrate/-/arango-migrate-1.2.0.tgz#e4e09107e8bc5ec9bf31c87fbaf0574430fef396"
-  integrity sha512-og/RxwLL9PREKH/dPX0Kmzhef2gaQ8tkVyyy3Yrx47kQ5PXKfhAEcEppCCOvxebSqjNgs1HTE8qcRrq/6z/JEg==
+arango-migrate@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/arango-migrate/-/arango-migrate-1.3.0.tgz#f5585002ecc7bfb99a14b808186e66b3a0159762"
+  integrity sha512-xqtwFF6z3uI2ZrAii00bNX/I9Zew86at2N3HZY43VMOy/3Te2rFmwkvCi/yD6L36jCtIAIUlbZOehViugAW/cQ==
   dependencies:
     arangojs "7.8.0"
     commander "9.3.0"
