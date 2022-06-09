@@ -1,11 +1,17 @@
 # arango-migrate-example
 
-Sample repository for a minimal example of the arango-migrate cli tool.
+A minimal example of how to use the [arango-migrate](https://github.com/TimMikeladze/arango-migrate) cli tool.
 
 ## How to use
 
-> npm install
+```console
+docker compose up -d
 
-> npx arango-migrate --up
+yarn install
 
-> npx arango-migrate --list
+yarn arango-migrate --up
+
+yarn arango-migrate --list
+```
+
+Read the full documentation [here](https://github.com/TimMikeladze/arango-migrate)

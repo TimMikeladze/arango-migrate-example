@@ -1,7 +1,11 @@
 {
   "name": "arango-migrate-example",
+  "type": "module",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "dependencies": {
-    "arango-migrate": "0.0.3",
-    "dotenv": "^16.0.0"
+    "arango-migrate": "1.0.0",
+    "dotenv": "16.0.0"
   }
 }
