@@ -7,13 +7,13 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.41.tgz#1607b2fd3da014ae5d4d1b31bc792a39348dfb9b"
   integrity sha512-xA6drNNeqb5YyV5fO3OAEsnXLfO7uF0whiOfPTz5AeDo8KeZFmODKnvwPymMNO8qE/an8pVY/O50tig2SQCrGw==
 
-arango-migrate@1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/arango-migrate/-/arango-migrate-1.5.1.tgz#332047732982d8d7f904bcd424499472d0a8276a"
-  integrity sha512-bPQb22SlgcH9nRYuP/sGjCE3mYwEIzc1JTHBUGQ1u2kobgjSTYywaAGI1rXOdU/UZ67/3tl8GBiucbjg8Jxhrw==
+arango-migrate@1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/arango-migrate/-/arango-migrate-1.5.3.tgz#8a0264113e11b72489696cd35fd7cec0f58418e5"
+  integrity sha512-fWV/pUK5T2V0xHeVLuoTlURDb2MbqF5H7KYFwjlO0kMlu+oMwPv6ET0cFdKOD4Ivedr6BKg8BFxJE2w6vhVcow==
   dependencies:
     arangojs "7.8.0"
-    commander "9.4.0"
+    commander "9.4.1"
     glob "8.0.3"
     slugify "1.6.5"
 
@@ -40,10 +40,10 @@ brace-expansion@^2.0.1:
   dependencies:
     balanced-match "^1.0.0"
 
-commander@9.4.0:
-  version "9.4.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-9.4.0.tgz#bc4a40918fefe52e22450c111ecd6b7acce6f11c"
-  integrity sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==
+commander@9.4.1:
+  version "9.4.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-9.4.1.tgz#d1dd8f2ce6faf93147295c0df13c7c21141cfbdd"
+  integrity sha512-5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==
 
 dom-walk@^0.1.0:
   version "0.1.2"
