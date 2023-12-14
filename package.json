@@ -5,7 +5,7 @@
     "node": ">=14.0.0"
   },
   "dependencies": {
-    "arango-migrate": "1.6.0",
+    "arango-migrate": "1.7.0",
     "arangojs": "7.8.0",
     "dotenv": "16.0.0"
   }

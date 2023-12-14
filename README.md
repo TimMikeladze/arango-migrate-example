@@ -14,6 +14,10 @@ yarn install
 yarn arango-migrate --up
 
 yarn arango-migrate --list
+
+yarn arango-migrate --init my_new_migration
+
+yarn arango-migrate --up
 ```
 
 Read the full documentation [here](https://github.com/TimMikeladze/arango-migrate)
